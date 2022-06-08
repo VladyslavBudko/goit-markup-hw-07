@@ -122,11 +122,6 @@ body {
   transition: color var(--animation);
 }
 
-.footer__logo {
-  color: var(--primary-color);
-  transition: color var(--animation);
-}
-
 .logo:hover .header__logo,
 .logo:focus .header__logo,
 .logo:hover .footer__logo,
@@ -898,10 +893,16 @@ footer
   color: var(--accent-color);
 }
 
-.footer__logo {
+.footer__logo-main {
   display: block;
   margin-right: 0;
   padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer__logo {
+  color: var(--primary-color);
+  transition: color var(--animation);
 }
 
 .footer__address-item:not(:last-child) {
