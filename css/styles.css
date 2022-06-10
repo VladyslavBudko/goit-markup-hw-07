@@ -421,8 +421,8 @@ body {
   transition: fill var(--animation);
 }
 
-.modal__btn:hover .modal-btn-svg,
-.modal__btn:focus .modal-btn-svg {
+.modal__btn:hover .modal__btn-svg,
+.modal__btn:focus .modal__btn-svg {
   fill: var(--accent-color);
 }
 
