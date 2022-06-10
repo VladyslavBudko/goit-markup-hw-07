@@ -528,7 +528,7 @@ body {
 
 .modal-form__textarea {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* Custom Checkbox */
@@ -591,6 +591,7 @@ body {
 
 .form-policy__a {
   text-decoration: underline;
+  color: var(--accent-color);
 }
 
 /* Особенности features  */
