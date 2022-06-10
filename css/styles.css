@@ -468,9 +468,12 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   transition: border var(--animation);
   border-radius: 4px;
+
+  outline: transparent;
 }
 
-.modal-form__input:focus {
+.modal-form__input:focus,
+.modal-form__input:hover {
   cursor: pointer;
   border: 1px solid var(--accent-color);
 }
@@ -965,6 +968,8 @@ footer
   border-radius: 4px;
   background: var(--hero-background);
   color: var(--primary-background);
+
+  outline: transparent;
 }
 
 .footer__input:focus,
