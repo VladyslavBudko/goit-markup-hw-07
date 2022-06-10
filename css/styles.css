@@ -864,8 +864,17 @@ footer
   align-items: baseline;
 }
 
-.footer__item:not(:last-child) {
+/* .footer__item:not(:last-child) {
   margin-right: 70px;
+} */
+
+.footer__item:nth-child(1) {
+  margin-right: 70px;
+}
+
+
+.footer__item:nth-child(2) {
+  margin-right: auto;
 }
 
 .footer__address {
@@ -946,11 +955,6 @@ footer
   justify-content: center;
   align-items: center;
 }
-
-.footer__mail {
-  margin-left: auto;
-}
-
 
 .footer__group {
   margin-right: 12px;
