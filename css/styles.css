@@ -558,8 +558,6 @@ body {
   transition: border var(--animation);
 }
 
-.form-policy:hover .form-policy__custom-checkbox,
-.form-policy:focus .form-policy__custom-checkbox,
 .form-policy__checkbox:checked+.form-policy__custom-checkbox {
   border: 2px solid var(--accent-color);
 }
