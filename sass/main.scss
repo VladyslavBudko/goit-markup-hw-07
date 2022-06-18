@@ -6,13 +6,21 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/reset";
+@import "./base/animations";
+
 @import "./base/card-set";
 @import "./base/js-selectors";
 
 // components
 
 @import "./components/logo";
+@import "./components/modal-form";
 
-@import "./components/button";
+// @import "./components/button";
 
 // layouts
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/doing";
+@import "./layouts/team";
