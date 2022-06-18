@@ -491,7 +491,8 @@ body {
   transition: fill var(--animation);
 }
 
-.modal-form__input:focus+.modal-form__icon {
+.modal-form__input:focus+.modal-form__icon,
+.modal-form__input:hover+.modal-form__icon {
   fill: var(--accent-color);
 }
 
@@ -558,8 +559,9 @@ body {
   transition: border var(--animation);
 }
 
-.form-policy__checkbox:checked+.form-policy__custom-checkbox {
-  border: 2px solid var(--accent-color);
+.form-policy__checkbox:focus+.form-policy__custom-checkbox,
+.form-policy__checkbox:hover+.form-policy__custom-checkbox {
+  border-color: var(--accent-color);
 }
 
 .form-policy__custom-checkbox--mark {
