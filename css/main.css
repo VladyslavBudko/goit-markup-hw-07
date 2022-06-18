@@ -89,4 +89,23 @@ ol {
 a {
   text-decoration: none;
 }
+
+/* Logo */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 90px;
+  padding: 20px 0;
+}
+
+.logo:focus .header__logo,
+.logo:hover .header__logo,
+.logo:hover .footer__logo,
+.logo:focus .footer__logo {
+  color: var(--accent-color);
+}
 /*# sourceMappingURL=main.css.map */

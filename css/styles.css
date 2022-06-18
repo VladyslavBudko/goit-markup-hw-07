@@ -1,33 +1,8 @@
-/* Logo */
-
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway, cursive;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-
-  text-decoration: none;
-
-  margin-right: 90px;
-  padding: 20px 0;
-
-
-}
-
+/* Header */
 .header__logo {
   color: var(--logo-header);
   transition: color var(--animation);
 }
-
-.logo:hover .header__logo,
-.logo:focus .header__logo,
-.logo:hover .footer__logo,
-.logo:focus .footer__logo {
-  color: var(--accent-color);
-}
-
-/* Header */
 
 .header__container {
   display: flex;
